@@ -1,78 +1,97 @@
 <!DOCTYPE html>
 <html lang="esp" data-contexto="enfoque">
+<!-- Declaración del tipo de documento y especificación del idioma -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fokus</title>
-    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Fokus</title> <!-- Título de la página -->
+    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon"> <!-- Icono de la pestaña del navegador -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Hoja de estilos para resetear estilos predeterminados del navegador -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <!-- Enlaces a las fuentes de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Enlace a la hoja de estilos personalizada -->
     <link rel="stylesheet" href="./styles.css">
+    <!-- Script diferido para la lógica JavaScript -->
     <script src="./script.js" defer></script>
 </head>
 
 <body>
     <main class="app">
         <header class="app__header">
+            <!-- Cabecera de la aplicación -->
             <figure class="app__logo-figure">
                 <img class="app__logo-image" src="/imagenes/logo.png" alt="">
+                <!-- Logo de la aplicación -->
             </figure>
         </header>
         <section class="app__section-banner-container">
+            <!-- Sección del banner -->
             <h1 class="app__title">
                 Optimiza tu productividad,<br>
                 <strong class="app__title-strong">sumérgete en lo que importa.</strong>
+                <!-- Título principal -->
             </h1>
             <figure class="app__image-figure">
                 <img class="app__image" src="/imagenes/enfoque.png" alt="">
+                <!-- Imagen de la sección del banner -->
             </figure>
         </section>
         <section class="app__section-card-container">
+            <!-- Sección del contenedor de tarjetas -->
             <div class="app__card">
+                <!-- Tarjeta principal -->
                 <ul class="app__card-list">
+                    <!-- Lista de botones -->
                     <li class="app__card-list-item">
                         <button data-contexto="enfoque" class="app__card-button app__card-button--enfoque active">Enfoque</button>
+                        <!-- Botón de enfoque -->
                     </li>
                     <li class="app__card-list-item">
                         <button data-contexto="short" class="app__card-button app__card-button--corto">Descanso corto</button>
+                        <!-- Botón de descanso corto -->
                     </li>
                     <li class="app__card-list-item">
                         <button data-contexto="long" class="app__card-button app__card-button--largo">Descanso largo</button>
+                        <!-- Botón de descanso largo -->
                     </li>
                 </ul>
                 <div id="timer" class="app__card-timer"></div>
+                <!-- Temporizador -->
                 <ul class="app__card-list">
+                    <!-- Otra lista de elementos -->
                     <li class="app__card-list-item">
                         <label class="toggle">
                             <input class="toggle-checkbox" type="checkbox" id="alternar-musica">
                             <div class="toggle-switch"></div>
                         </label>
+                        <!-- Interruptor de alternar música -->
                     </li>
                     <li class="app__card-list-item">
                         <label class="app__card-list-label" for="alternar-musica">
                             Música
                         </label>
+                        <!-- Etiqueta para el interruptor de música -->
                     </li>
                 </ul>
                 <div class="app__card-primary-button-wrapper">
+                    <!-- Contenedor del botón principal -->
                     <button id="start-pause" class="app__card-primary-button">
                         <img class="app__card-primary-butto-icon" src="/imagenes/play_arrow.png" alt="">
                         <span>Comenzar</span>
+                        <!-- Botón para comenzar -->
                     </button>
                 </div>
             </div>
         </section>
 
         <footer class="app__footer">
+            <!-- Pie de página -->
             <p class="app__footer-text">
-                Proyecto ficticio y sin fines comerciales. Imágenes generadas por IA en Adobe Firefly. Desarrollado por Alura. 
+                Proyecto ficticio y sin fines comerciales. Imágenes generadas por IA en Adobe Firefly. Desarrollado por Alura.
+                <!-- Texto del pie de página -->
             </p>
         </footer>
     </main>

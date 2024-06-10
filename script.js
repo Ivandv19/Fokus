@@ -1,3 +1,4 @@
+// Seleccionar elementos del DOM
 const html = document.querySelector('html');
 const botonEnfoque = document.querySelector('.app__card-button--enfoque');
 const botonCorto = document.querySelector('.app__card-button--corto');
@@ -11,16 +12,17 @@ const textoIniciarPausar = document.querySelector('#start-pause span');
 const iconoIniciarPausar = document.querySelector(".app__card-primary-butto-icon");
 const tiempoEnPantalla = document.querySelector('#timer');
 
+// Configurar audio
 const musica = new Audio('./sonidos/luna-rise-part-one.mp3');
 const audioPlay = new Audio('./sonidos/play.wav');
 const audioPausa = new Audio('./sonidos/pause.mp3');
 const audioTiempoFinalizado = new Audio('./sonidos/beep.mp3');
 
+// Variables de tiempo
 let tiempoTranscurridoEnSegundos = 1500;
 let idIntervalo = null;
 
-musica.loop = true;
-
+// Reproducción de música enfoque
 inputMusicaEnfoque.addEventListener('change', () => {
     if (musica.paused) {
         musica.play();
@@ -29,6 +31,7 @@ inputMusicaEnfoque.addEventListener('change', () => {
     }
 });
 
+// Event Listeners para los botones de enfoque y descanso
 botonEnfoque.addEventListener('click', () => {
     tiempoTranscurridoEnSegundos = 1500;
     cambiarContexto('enfoque');
@@ -47,6 +50,7 @@ botonLargo.addEventListener('click', () => {
     botonLargo.classList.add('active');
 });
 
+// Función para cambiar el contexto de la aplicación
 function cambiarContexto(contexto) {
     mostrarTiempo();
     botones.forEach(function (botonContexto) {
@@ -76,6 +80,7 @@ function cambiarContexto(contexto) {
     }
 }
 
+// Función para la cuenta regresiva
 const cuentaRegresiva = () => {
     if (tiempoTranscurridoEnSegundos <= 0) {
         audioTiempoFinalizado.play();
@@ -87,11 +92,12 @@ const cuentaRegresiva = () => {
     tiempoTranscurridoEnSegundos -= 1;
     console.log('Temporizador: ' + tiempoTranscurridoEnSegundos)
     mostrarTiempo();
-
 };
 
+// Event Listener para el botón de iniciar/pausar
 botonIniciarPausar.addEventListener('click', iniciarOpausar);
 
+// Función para iniciar o pausar la cuenta regresiva
 function iniciarOpausar() {
     if (idIntervalo) {
         audioPausa.play();
@@ -103,6 +109,7 @@ function iniciarOpausar() {
 
 }
 
+// Función para reiniciar la cuenta regresiva
 function reiniciar() {
     clearInterval(idIntervalo);
     textoIniciarPausar.textContent = 'Comenzar';
@@ -110,6 +117,7 @@ function reiniciar() {
     idIntervalo = null;
 }
 
+// Función para mostrar el tiempo en pantalla
 function mostrarTiempo() {
     const tiempo = new Date(tiempoTranscurridoEnSegundos * 1000);
     const tiempoFormateado = tiempo.toLocaleTimeString('es-MX', { minute: '2-digit', second: '2-digit' });
