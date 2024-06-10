@@ -39,7 +39,7 @@ Fokus es una aplicación web diseñada para ayudarte a mejorar tu productividad 
 
 ## Despliegue
 
-El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Portafolio Web](https://fokus-chi-ten.vercel.app/).
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Fokus](https://fokus-chi-ten.vercel.app/).
 
 ## Licencia
 
