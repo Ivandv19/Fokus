@@ -4,6 +4,7 @@ Fokus es una aplicación web diseñada para ayudarte a mejorar tu productividad 
 
 ## Uso
 
+- Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://fokus-chi-ten.vercel.app/).
 - Selecciona el tipo de sesión (enfoque, descanso corto, descanso largo) haciendo clic en los botones correspondientes.
 - Opcional: activa la música de fondo con el interruptor.
 - Haz clic en el botón "Comenzar" para iniciar el temporizador.
@@ -25,7 +26,10 @@ Fokus es una aplicación web diseñada para ayudarte a mejorar tu productividad 
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local.
+1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
+```bash
+https://github.com/IvandevI9/alurabank.git
+```
 2. Abre el archivo `index.html` en tu navegador web.
 
 
