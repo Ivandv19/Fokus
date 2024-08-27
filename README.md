@@ -4,8 +4,7 @@ Fokus es una aplicación web diseñada para ayudarte a mejorar tu productividad 
 
 ## Uso
 
-- Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://fokus-chi-ten.vercel.app/).
-- Abre el archivo `index.html` en tu navegador web.
+- Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://fokus-chi-ten.vercel.app/).
 - Selecciona el tipo de sesión (enfoque, descanso corto, descanso largo) haciendo clic en los botones correspondientes.
 - Opcional: activa la música de fondo con el interruptor.
 - Haz clic en el botón "Comenzar" para iniciar el temporizador.
