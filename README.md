@@ -28,7 +28,7 @@ Fokus es una aplicación web diseñada para ayudarte a mejorar tu productividad 
 
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
 ```bash
-https://github.com/IvandevI9/alurabank.git
+https://github.com/IvandevI9/Fokus.git
 ```
 2. Abre el archivo `index.html` en tu navegador web.
 
