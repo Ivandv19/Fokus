@@ -248,13 +248,17 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1024px) and (min-width: 768px) {
     .app__section-banner-container {
         width: 48rem;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 /* Para Celulares */
 @media (max-width: 767px) {
     .app__section-banner-container {
-        width: 32rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .app__title {
@@ -263,5 +267,26 @@ h1, h2, h3, h4, h5, h6 {
 
     .app__card-timer {
         font-size: 6rem;
+    }
+    .app__section-card-container{
+        width: 100%;
+        height: auto;
+    }
+    .app__card{
+        width: 100%;
+        height: auto;
+    }
+    .app__card-list{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .app__card-timer{
+        font-size: 10vw;
+    }
+    .app__title{
+        font-size: 6vw;
+        padding: 0 10px;
+        text-align: center;
     }
 }
