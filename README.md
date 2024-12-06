@@ -1,5 +1,7 @@
 # Fokus
 
+## Descripción
+
 Fokus es una aplicación web diseñada para ayudarte a mejorar tu productividad mediante técnicas de enfoque y descanso.
 
 ## Uso
@@ -43,8 +45,16 @@ https://github.com/IvandevI9/Fokus.git
 
 ## Despliegue
 
-El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Fokus](https://fokus-chi-ten.vercel.app/).
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Fokus]( https://fokus-chi-ten.vercel.app/ ).
 
 ## Licencia
 
 Este proyecto está bajo la licencia [MIT](LICENSE).
+
+## Imagen
+
+![petshop]( https://github.com/user-attachments/assets/02636a68-1c8e-4955-98d5-8b8d3fb76f07 )
+
+## Proyecto En Portafolio Web ##7
+
+-Este proyecto es parte de los proyectos mostrados en mi portafolio web
