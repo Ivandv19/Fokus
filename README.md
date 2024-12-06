@@ -53,7 +53,7 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ## Imagen
 
-![petshop]( https://github.com/user-attachments/assets/02636a68-1c8e-4955-98d5-8b8d3fb76f07 )
+![fokus-chi-ten vercel app_](https://github.com/user-attachments/assets/127f9268-0926-492c-9134-f12ab50f115d)
 
 ## Proyecto En Portafolio Web ##7
 
