@@ -53,7 +53,7 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ## Imagen
 
-![fokus-chi-ten vercel app_](https://github.com/user-attachments/assets/127f9268-0926-492c-9134-f12ab50f115d)
+![fokus-chi-ten vercel app_]( https://github.com/user-attachments/assets/127f9268-0926-492c-9134-f12ab50f115d )
 
 ## Proyecto En Portafolio Web ##7
 
