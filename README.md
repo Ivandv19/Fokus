@@ -1,5 +1,8 @@
 # Fokus
 
+[![wakatime](https://wakatime.com/badge/github/Ivandv19/Fokus.svg)](https://wakatime.com/badge/github/Ivandv19/Fokus)
+[![wakatime](https://wakatime.com/badge/user/c585b1da-c687-4d3b-89c1-72901e86fb52/project/979d9539-eb3e-4aa2-9564-fd04dc26ba76.svg)](https://wakatime.com/badge/user/c585b1da-c687-4d3b-89c1-72901e86fb52/project/979d9539-eb3e-4aa2-9564-fd04dc26ba76)
+
 ## Descripción
 
 Fokus es una aplicación web diseñada para ayudarte a mejorar tu productividad mediante técnicas de enfoque y descanso.
